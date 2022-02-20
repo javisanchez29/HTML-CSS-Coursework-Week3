@@ -1,0 +1,272 @@
+.eslogan {
+    font-size: 15px; 
+    margin-top: 150px;
+    margin-left: 150px;
+    }
+
+.nav2{
+    display: none;
+} 
+
+.sabores1 {
+    color: white;
+    text-align: left;
+}
+
+.titulo {
+    font-size: 44px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.imagenlogo {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/foto-gratis/vista-frontal-concepto-delicioso-pastel_23-2148769309.jpg);
+}
+
+
+
+.grandefooter{
+    display: none;
+}
+
+.grandep{
+    display: none;
+}
+
+.textoprincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mx-auto + p{
+    font-family: sans-serif ;
+    color: white;
+    text-align: center;
+    line-height: 70%;
+    font-size: large;
+    font-weight: 600;
+}
+ 
+.botondemenu {
+    position: absolute;
+    padding: 0;
+    margin-left: 85%;
+}
+
+.menudown{
+    margin-top: 60px;
+    width: 150px;  
+}
+.menudown a{
+    color: white;
+    text-align: center;
+    
+}
+.menudown + p{
+    margin-top: 30px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 80%;
+    letter-spacing: 0px;
+}
+
+main{
+    padding: 20px;
+}
+
+main h2{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+main p{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contenedor1{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.contenedor1 img{
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.contenedor1 p{  
+    font-family: sans-serif;
+    padding: 0px;
+    padding-left: 10px;
+    line-height: 20%; 
+    text-align: center;
+}
+
+
+footer{
+    background-color: #121b24;
+}
+
+footer a{
+    text-decoration: none;
+    color: #6189f6;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer a:hover{
+    color: #b2b7c5;
+    transition: .4s;
+}
+
+/* Querie-Medium */
+@media (min-width: 540px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;    
+    }
+    
+    .grandefooter{
+        display: none ;
+    }
+
+    body{
+        overflow-x: hidden;    
+    }
+
+    button{
+        margin-left: flex;
+    }
+
+    .columna2 .imagenrosa{
+        margin-left: 100px ;   
+    }
+}
+/* Querie-Large */
+@media (min-width: 900px) {
+    
+    .navegacion{
+        display: none; 
+    }
+
+    .grandefooter{
+        display: block;
+    }
+
+    .grandep{
+        display: flex;
+    }
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;   
+    }
+
+    .nav2{
+        display: block;
+        background-color: black;
+        width: 100%;    
+    }
+
+    .p{
+        font-family: sans-serif;
+        text-align: center;
+        line-height: 70%;
+        font-size: large;
+        font-weight: 500;
+
+    }
+    .col-lg-8 p{
+        margin-top: 80px;
+        color: white;
+        font-family: sans-serif;
+        line-height: 40%;
+        letter-spacing: 3px;    
+    }
+
+    .col-lg-8 p:hover{
+        margin-top: 80px;
+        font-family: sans-serif;
+        line-height: 40%;
+        letter-spacing: 3px; 
+        transition: .3s;   
+    }
+
+    menu {
+        background-color:rgb(87, 235, 255); 
+    }
+
+    menu ul{
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    menu ul li a{
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        color: #6189f6;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+
+    .columnaprincipal h2{
+        font-size: 90px;
+        text-align: center;  
+    }
+
+    .columnaprincipal h2+p{
+        background-color: mistyrose;
+        font-size: 45px;  
+        font-family:cursive ;
+    }
+
+   .columna2 .imagenrosa{
+       margin-left: 120px;   
+   }
+
+   .contenedor1:hover{
+       border:1px solid #C7F936 ;
+   }
+
+   .movil{
+       display: none;
+   }
+
+   .grandefooter{
+       height: 140px;
+       background-color: #121b24;
+   }
+
+   .grandefooter li{
+       border-right: 1px solid #C7F936;    
+   }
+
+   .grandefooter a{
+    margin: 15px;
+   }
+
+   .grandefooter p{
+    text-align: center;
+    text-decoration: none;
+    color:#C7F936;
+    font-family: sans-serif;
+    text-align: center;
+   }
+}
