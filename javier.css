@@ -127,7 +127,6 @@ footer a:hover{
     transition: .4s;
 }
 
-/* Querie-Medium */
 @media (min-width: 540px) {
     *{
         padding: 0px;
@@ -151,7 +150,10 @@ footer a:hover{
         margin-left: 100px ;   
     }
 }
-/* Querie-Large */
+
+
+
+
 @media (min-width: 900px) {
     
     .navegacion{
